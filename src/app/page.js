@@ -44,13 +44,13 @@ const Page = () => {
         </div>
         {data.length === 0 ? (
           <div>NOT FOUND</div>
-        ) : (
+        ) : data.length === 9 ? (
           <div className="page">
             <div onClick={ret}>return</div>
             <div>{number}</div>
             <div onClick={next}>next</div>
           </div>
-        )}
+        ) : null}
       </div>
     </Parent>
   );

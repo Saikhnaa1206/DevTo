@@ -44,7 +44,7 @@ body {
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 36px;
   justify-content: center;
 }
 .header {
@@ -117,7 +117,8 @@ body {
 }
 .create {
   height: fit-content;
-  padding: 6px;
+  padding: 12px;
+  font-size: 16px;
   border-color: white;
   background-color: black;
   color: white;
@@ -130,21 +131,20 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 36px;
+  margin-top: 48px;
   height: 500px;
 }
 .titleinput {
-  width: 50%;
+  width: 800px;
   height: 50px;
   display: flex;
   align-items: center;
-  border-bottom: white 1px solid;
 }
 .contentinput {
-  width: 50%;
+  width: 800px;
   height: 50px;
   display: flex;
   align-items: center;
-  border-bottom: white 1px solid;
 }
 .createinput {
   outline: none;
